@@ -5,8 +5,8 @@
     <!-- versionCode is <Major> * 1000000 + <Minor> * 1000 + <Revision> -->
 
     <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="17" />
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
 
     <application />
 
