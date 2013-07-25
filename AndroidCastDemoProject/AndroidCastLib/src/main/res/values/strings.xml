@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2013 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+
+    <string name="tie">This is a tie! No one wins!</string>
+    <string name="player_turn">It is player <b>%s</b>\'s turn.</string>
+    <string name="player_wins">Player %s wins!</string>
+    <string name="connect">Choose Device</string>
+    <string name="device_discover_title">Discovered Devices</string>
+    <string name="connected_to_text">Connected to: <b>%s</b></string>
+    <string name="no_device">No Device</string>
+    <string name="start">Start</string>
+    <string name="welcome"><b>Welcome to the Cast Tic-Tac-Toe Sample!</b></string>
+    <string name="explain1">This sample code demonstrates how to use custom MessageStreams with a Cast Receiver.</string>
+    <string name="explain2"></string>
+    <string name="app_name">Cast Tic-Tac-Toe</string>
+    <string name="action_settings">Settings</string>
+    <string name="done">I\'m done</string>
+    <string name="empty"></string>
+    <string name="player_name">You are player <b>%s</b></string>
+    <string name="play_again">Play Again</string>
+    <string name="waiting_for_game">Waiting for the game to start</string>
+    <string name="waiting_for_player_assignment">Waiting for player assignment</string>
+    <string name="abandoned">The other player chickened out.</string>
+    <string name="other_players_abandoned">One of the other playes chickened out.</string>
+    <string name="full_game">Game is full.</string>
+    <string name="observing">You are observing the game.</string>
+    <string name="error">Error</string>
+    <string name="leave">Leave</string>
+    <string name="ok">OK</string>
+    <string name="game_over">Game Over</string>
+    <string name="scan_failed_network_error">Unable to scan for devices. Check your network settings.</string>
+
+</resources>
