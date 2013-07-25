@@ -1,5 +1,8 @@
 buildscript {
     repositories {
+        maven {
+            url 'https://raw.github.com/nicolasjafelle/maven-repo/master/'
+        }
         mavenCentral()
     }
     dependencies {
@@ -9,11 +12,14 @@ buildscript {
 apply plugin: 'android-library'
 
 repositories {
+    maven {
+        url 'https://raw.github.com/nicolasjafelle/maven-repo/master/'
+    }
     mavenCentral()
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: '*.jar')
+    compile 'android.google:cast:1.0.0'
     compile 'com.android.support:support-v4:18.0.+'
 }
 

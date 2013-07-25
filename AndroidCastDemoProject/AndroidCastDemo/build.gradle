@@ -1,5 +1,8 @@
 buildscript {
     repositories {
+        maven {
+            url 'https://raw.github.com/nicolasjafelle/maven-repo/master/'
+        }
         mavenCentral()
     }
     dependencies {
@@ -9,10 +12,14 @@ buildscript {
 apply plugin: 'android'
 
 repositories {
+    maven {
+        url 'https://raw.github.com/nicolasjafelle/maven-repo/master/'
+    }
     mavenCentral()
 }
 
 dependencies {
+    compile 'android.google:cast:1.0.0'
     compile project(':AndroidCastLib')
 }
 
