@@ -19,13 +19,13 @@ repositories {
 }
 
 dependencies {
-    compile 'android.google:cast:1.0.0'
+    compile 'android.google:cast:1.0.1'
     compile project(':AndroidCastLib')
 }
 
 android {
     compileSdkVersion 18
-    buildToolsVersion "18.0.0"
+    buildToolsVersion "18.0.1"
 
     defaultConfig {
         minSdkVersion 14
